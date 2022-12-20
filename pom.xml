@@ -46,7 +46,7 @@
                     </metadataRepository>
                     <requiredVersion>22.3</requiredVersion>
                     <buildArgs>
-                        <arg> --language:ruby </arg>
+                        <arg> --language:js </arg>
                     </buildArgs>
                 </configuration>
                 <executions>

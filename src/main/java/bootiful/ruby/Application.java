@@ -21,7 +21,7 @@ public class Application {
     ApplicationListener<ApplicationReadyEvent> ruby() {
         return event -> {
             try (var engine = Engine.create()) {
-                var source = Source.create("ruby", "21 + 21");
+                var source = Source.create("js", "21 + 21");
                 try (var context = Context.newBuilder().engine(engine).build()) {
                     var v = context.eval(source).asInt();
                     Assert.state(v == 42, "the value is 42");
