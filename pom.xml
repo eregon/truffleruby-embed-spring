@@ -47,7 +47,7 @@
                     </metadataRepository>
                     <requiredVersion>22.3</requiredVersion>
                     <buildArgs>
-                        <arg> --language:js </arg>
+                        <arg> --language:ruby </arg>
                         <arg>bootiful.ruby.Application</arg>
                     </buildArgs>
                 </configuration>
