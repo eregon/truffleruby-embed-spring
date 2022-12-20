@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 rm -rf target
-./mvnw -e -X -DskipTests -Pnative  native:compile  && target/ruby
+./mvnw -e -DskipTests -Pnative  native:compile  && target/ruby
